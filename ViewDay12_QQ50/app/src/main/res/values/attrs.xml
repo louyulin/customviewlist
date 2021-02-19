@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="menuRightMargin" format="dimension"/>
+    <declare-styleable name="KGSlidingMenu">
+        <attr name="menuRightMargin"/>
+    </declare-styleable>
+    <declare-styleable name="SlidingMenu">
+        <attr name="menuRightMargin"/>
+    </declare-styleable>
+</resources>

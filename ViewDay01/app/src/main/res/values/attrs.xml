@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    name 最好是自己view的名字-->
+    <declare-styleable name="TextView">
+<!--        属性名称                  格式-->
+        <attr name="dareentext" format="string"/>
+        <attr name="dareentextColor" format="color"/>
+<!--        dimension  宽高 字体大小-->
+        <attr name="dareentestSize" format="dimension"/>
+        <attr name="dareenmaxLength" format="integer"/>
+
+<!--枚举-->
+        <attr name="dareeninputType">
+            <enum name="number" value="1"/>
+            <enum name="text" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<com.example.louyulin.day03qqstepview.QQStepView
+    android:id="@+id/qqstepView"
+    app:innerColor="#f88"
+    app:outerColor="#162FD3"
+    app:borderWidth="6dp"
+    app:stepTextColor="#f88"
+    app:stepTextSize="16sp"
+    android:layout_centerInParent="true"
+    android:layout_width="180dp"
+    android:layout_height="180dp"/>
+
+</RelativeLayout>
